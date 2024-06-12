@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Sở Thích Của Bạn</title>
+</head>
+<body style="background-color: #e0f7fa; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+  <div class="container" style="width: 350px; padding: 20px; border: 1px solid #ddd; background-color: #fff; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); position: relative;">
+    <h2 style="background-color: #ff5722; color: white; padding: 10px; text-align: center; margin: -20px -20px 20px -20px;">SỞ THÍCH CỦA BẠN</h2>
+    <form>
+      <label for="name">Họ và tên</label>
+      <input type="text" id="name" name="name" style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box;">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" style="width: 100%; padding: 8px; margin: 5px 0; box-sizing: border-box;">
+
+      <label>Sở thích</label>
+      <div class="hobbies">
+        <input type="checkbox" id="sport" name="hobby" value="sport">
+        <label for="sport" style="display: inline-block; margin-right: 10px;">Thể thao</label>
+        <input type="checkbox" id="music" name="hobby" value="music">
+        <label for="music" style="display: inline-block; margin-right: 10px;">Âm nhạc</label>
+        <input type="checkbox" id="reading" name="hobby" value="reading">
+        <label for="reading" style="display: inline-block; margin-right: 10px;">Đọc sách</label>
+        <input type="checkbox" id="browsing" name="hobby" value="browsing">
+        <label for="browsing" style="display: inline-block; margin-right: 10px;">Lướt web</label>
+        <input type="checkbox" id="gaming" name="hobby" value="gaming">
+        <label for="gaming" style="display: inline-block; margin-right: 10px;">Chơi game</label>
+        <input type="checkbox" id="cinema" name="hobby" value="cinema">
+        <label for="cinema" style="display: inline-block; margin-right: 10px;">Điện ảnh</label>
+        <input type="checkbox" id="traveling" name="hobby" value="traveling">
+        <label for="traveling" style="display: inline-block; margin-right: 10px;">Du lịch</label>
+      </div>
+
+      <div class="buttons" style="display: flex; justify-content: space-between;">
+        <button type="submit" style="padding: 10px 20px; border: none; background-color: #6fff22; color: white; cursor: pointer;">Gửi thông tin</button>
+        <button type="reset" style="padding: 10px 20px; border: none; background-color: #cccccc; color: black; cursor: pointer;">Nhập lại</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

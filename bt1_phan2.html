@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đăng Ký Học Viên</title>
+</head>
+<body style="background-color: #e0f7fa; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+  <div class="container" style="width: 400px; padding: 20px; border: 1px solid #ddd; background-color: #ffeb3b; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); position: relative;">
+    <h2 style="background-color: #b3e5fc; color: #0000ff; padding: 10px; text-align: center; margin: -20px -20px 20px -20px;">ĐĂNG KÝ HỌC VIÊN</h2>
+    <form>
+      <label for="name">Họ và tên</label>
+      <input type="text" id="name" name="name" style="width: calc(100% - 12px); padding: 5px; margin: 5px 0; box-sizing: border-box;">
+
+      <label for="dob">Ngày sinh</label>
+      <input type="date" id="dob" name="dob" style="width: calc(100% - 12px); padding: 5px; margin: 5px 0; box-sizing: border-box;">
+
+      <label>Giới tính</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male" style="color: #0000ff;">Nam</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female" style="color: #0000ff;">Nữ</label>
+      <br>
+      <br>
+
+      <label for="address">Địa chỉ</label>
+      <textarea id="address" name="address" rows="3" style="width: calc(100% - 12px); padding: 5px; margin: 5px 0; box-sizing: border-box;"></textarea>
+      
+
+      <label for="class">Lớp</label>
+      <select id="class" name="class" style="width: calc(100% - 12px); padding: 5px; margin: 5px 0; box-sizing: border-box;">
+        <option value=""name="" id="" style="width: 100%;">-- Chọn lớp --</option>
+            <option value="">JAVA</option>
+            <option value="">PHP</option>
+            <option value="">Python</option>
+
+        </select>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" style="width: calc(100% - 12px); padding: 5px; margin: 5px 0; box-sizing: border-box;">
+
+      <label for="phone">Điện thoại</label>
+      <input type="tel" id="phone" name="phone" style="width: calc(100% - 12px); padding: 5px; margin: 5px 0; box-sizing: border-box;">
+
+      <div class="buttons" style="display: flex; justify-content: space-between;">
+        <button type="submit" style="padding: 10px 20px; border: none; background-color: #ff5722; color: white; cursor: pointer;">Đăng ký</button>
+        <button type="reset" style="padding: 10px 20px; border: none; background-color: #cccccc; color: black; cursor: pointer;">Nhập lại</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
